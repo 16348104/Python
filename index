@@ -11,4 +11,5 @@ print list
 # print list[-5]
 list2 = ['Adam', 'Lisa', 'Bar']
 list2.insert(2, 'Pual')
-print list2
+for name in list2:
+    print list2
