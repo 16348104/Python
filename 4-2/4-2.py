@@ -1,0 +1,5 @@
+L = ['Adam', 'Lisa', 'Bart']
+print L[0]
+print L[1]
+print L[2]
+# print L[3]
