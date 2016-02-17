@@ -3,4 +3,5 @@ print d.values()
 print d.keys()
 for v in d.values():
     print v
-
+for a in d.itervalues():
+    print a
