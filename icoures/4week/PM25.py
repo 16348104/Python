@@ -14,5 +14,4 @@ def main():
     else:
         print("优")
 
-
 main()
