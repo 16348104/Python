@@ -1,7 +1,7 @@
 # __author__ = 'zb'
 def main():
     try:
-        number1, number2 = eval(input("Enter two number."))
+        number1, number2 = eval(input("Enter two number,separated by comma"))
         result = number1 / number2
 
     except ZeroDivisionError:
