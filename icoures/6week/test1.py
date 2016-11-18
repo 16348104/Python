@@ -5,5 +5,4 @@ def main():
     data = infile.read()
     print(data)
 
-
 main()
