@@ -11,6 +11,7 @@ def main():
         r1 = (-b + delta) / (2 * a)
         r2 = (-b - delta) / (2 * a)
         print("\nThe solutions are:", r1, r2)
+
 main()
 
 
