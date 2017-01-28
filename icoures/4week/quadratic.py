@@ -1,6 +1,4 @@
 import math
-
-
 def main():
     print("The program find the real solutions to quadratic\n ")
     a, b, c = eval(input("Please enter the coefficients (a,b,c):"))
