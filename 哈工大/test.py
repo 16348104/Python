@@ -9,15 +9,15 @@
 # if number % 2 == 0:
 # print number, 'is even'
 # elif number % 3 == 0:
-#     print number, 'is multiple of 3'
+# print number, 'is multiple of 3'
 
-globalsvar = 1
+# globalsvar = 1
 
 #
 # def f1():
-#     localvar = 2
-#     print globalsvar
-#     print localvar
+# localvar = 2
+# print globalsvar
+# print localvar
 #
 #
 # f1()
@@ -25,5 +25,12 @@ globalsvar = 1
 # print localvar
 
 
-
+# x = 1
+# def increase():
+#     global x  #全局变量
+#     x += 1
+#     print x
+#
+# increase()
+# print x
 
