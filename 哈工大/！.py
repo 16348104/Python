@@ -12,3 +12,14 @@ def p(n):
 n = int(raw_input("input:"))
 print n, "p(!):", p(n)
 '''
+
+
+
+def p(n):
+    if n == 1 or n == 0:
+        return 1
+    else:
+        return n * p(n - 1)
+
+n = int(raw_input("input:"))
+print n, "p(!):", p(n)
