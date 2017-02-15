@@ -7,6 +7,23 @@
 
 # number = 30
 # if number % 2 == 0:
-#     print number, 'is even'
+# print number, 'is even'
 # elif number % 3 == 0:
 #     print number, 'is multiple of 3'
+
+globalsvar = 1
+
+#
+# def f1():
+#     localvar = 2
+#     print globalsvar
+#     print localvar
+#
+#
+# f1()
+# print globalsvar
+# print localvar
+
+
+
+
