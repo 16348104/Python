@@ -45,8 +45,8 @@ s = 'hello world'
 # print s.rjust(15)
 # print 'Hello {} good {}.'.format(5, 'DAY')
 import math
-print 'PI is {:.4f}'.format(math.pi)
-print 'PI is {:9.4f}'.format(math.pi)
+# print 'PI is {:.4f}'.format(math.pi)
+# print 'PI is {:9.4f}'.format(math.pi)
 print 'PI is {:e}'.format(math.pi)
 
 print '{:.4e}'.format(234.56789)
