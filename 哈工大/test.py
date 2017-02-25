@@ -45,6 +45,8 @@ s = 'hello world'
 # print s.rjust(15)
 # print 'Hello {} good {}.'.format(5, 'DAY')
 import math
+
+
 # print 'PI is {:.4f}'.format(math.pi)
 # print 'PI is {:9.4f}'.format(math.pi)
 # print 'PI is {:e}'.format(math.pi)
@@ -64,3 +66,17 @@ import math
 # a = [1, 2, 3]
 # f(a)
 # print a[1]
+
+# a = [1, 2, 3, 4, 5, 6]
+# # b = a
+# b = a[:]
+# b[1] = 100
+# print a[1]
+
+def swap(lst, a, b):
+    temp = lst[a]
+    lst[a] = lst[b]
+    lst[b] = temp
+x = [10, 20, 30]
+swap(x, 0, 1)
+print x
