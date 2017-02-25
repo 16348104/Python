@@ -47,6 +47,20 @@ s = 'hello world'
 import math
 # print 'PI is {:.4f}'.format(math.pi)
 # print 'PI is {:9.4f}'.format(math.pi)
-print 'PI is {:e}'.format(math.pi)
+# print 'PI is {:e}'.format(math.pi)
+# print '{:.4e}'.format(234.56789)
+# def f(l):
+#     l = [4, 5, 6]
+#     return l
+#
+# a = [1, 2, 3]
+# f(a)
+# print a[1]
 
-print '{:.4e}'.format(234.56789)
+# def f(l):
+#     l[1] = [5]
+#     return l
+#
+# a = [1, 2, 3]
+# f(a)
+# print a[1]
