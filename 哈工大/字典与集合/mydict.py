@@ -6,8 +6,10 @@ my_dict['Tom'] = 6787979
 # for i in my_dict:
 #     print i
 
-print my_dict.items()
+# print my_dict.items()
 # print my_dict.keys()
 # print my_dict.values()
 # print len(my_dict)
 # my_dict.clear()
+
+
