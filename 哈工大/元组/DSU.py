@@ -1,4 +1,4 @@
-words = ['dfafj', 'ajgjg', 'ghgha']
+words = ['dfafj', 'ajgjg', 'ghgha','tu']
 #decorate
 lst = []
 for w in words:
