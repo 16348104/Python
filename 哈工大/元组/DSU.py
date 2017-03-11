@@ -11,5 +11,6 @@ words = ['dfafj', 'ajgjg', 'ghghaf', 'tu']
 #         res.append(word)
 #
 # print res
+
 words.sort(key=lambda x: len(x), reverse=True)
 print words
