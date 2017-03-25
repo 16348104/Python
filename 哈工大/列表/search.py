@@ -19,7 +19,7 @@ def bi_search(lst, x):
     return -1
 
 
-def selection_sort(lst):
+def selection_sort_1(lst):
     for i in range(len(lst)):
         min_index = i
         for j in range(i + 1, len(lst)):
@@ -27,8 +27,24 @@ def selection_sort(lst):
                 min_index = j
         lst.insert(i, lst.pop(min_index))
 
-lst = [62, 5, 8, 14, 16]
-selection_sort(lst)
+
+def swap(lst, i, j):
+    t = lst[i]
+    lst[i] = lst[j]
+    lst[j] = t
+
+
+def selection_sort_2(lst):
+    for i in range(len(lst)):
+        min_index = i
+        for j in range(i + 1, len(lst)):
+            if lst[j] < lst[min_index]:
+                min_index = j
+        swap(lst, i, min_index)
+
+
+lst = [900, 62, 5, 8, 14, 16, 56, 3, 42, 29, ]
+selection_sort_2(lst)
 print lst
 # print search(lst, 10)
 # print bi_search(lst, 10)
