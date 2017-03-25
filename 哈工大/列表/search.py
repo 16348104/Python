@@ -27,7 +27,7 @@ def selection_sort(lst):
                 min_index = j
         lst.insert(i, lst.pop(min_index))
 
-lst = [62, 7, 8, 14, 16]
+lst = [62, 5, 8, 14, 16]
 selection_sort(lst)
 print lst
 # print search(lst, 10)
