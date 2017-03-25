@@ -19,9 +19,19 @@ def bi_search(lst, x):
     return -1
 
 
-lst = [6, 7, 8, 10, 16]
+def selection_sort(lst):
+    for i in range(len(lst)):
+        min_index = i
+        for j in range(i + 1, len(lst)):
+            if lst[j] < lst[min_index]:
+                min_index = j
+        lst.insert(i, lst.pop(min_index))
+
+lst = [62, 7, 8, 14, 16]
+selection_sort(lst)
+print lst
 # print search(lst, 10)
-print bi_search(lst, 10)
+# print bi_search(lst, 10)
 # print search(lst, 1)
 # print lst.index(8)
 
