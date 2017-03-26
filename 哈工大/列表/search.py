@@ -43,8 +43,21 @@ def selection_sort_2(lst):
         swap(lst, i, min_index)
 
 
-lst = [900, 62, 5, 8, 14, 16, 56, 3, 42, 29, ]
-selection_sort_2(lst)
+def bubble_sort(lst):
+    exchanged = True
+    top = len(lst) - 1
+    while exchanged:
+        exchanged = False
+        for i in range(top):
+            if lst[i] > lst[i + 1]:
+                swap(lst, i, i + 1)
+                exchanged = True
+        top -= 1
+
+
+lst = [900, 62, 5, 8, 14, 16, 56, 3, 42,-1, 29, 0]
+# selection_sort_2(lst)
+bubble_sort(lst)
 print lst
 # print search(lst, 10)
 # print bi_search(lst, 10)
