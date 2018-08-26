@@ -3,7 +3,7 @@ for c in range(36):
         if c + r == 35 and c * 2 + r * 4 == 94:
             print 'The number of chickens is:', c
             print 'The number of rabbits is:', r
-            print
+            print''
 
 
 
