@@ -9,7 +9,7 @@ def people(age):
 
 
 def get_name():
-    return 'abc'
+    return 'ABC'
 
 
 people(10)
