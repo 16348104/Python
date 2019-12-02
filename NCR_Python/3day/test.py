@@ -10,5 +10,4 @@ def people(age):
 def get_name():
     return 'abc'
 
-
 people(10)
