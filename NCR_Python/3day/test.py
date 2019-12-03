@@ -9,7 +9,6 @@ def people(age):
 
 
 def get_name():
-    return 'xdx'
-
+    return 'xdx2016'
 
 people(10)
