@@ -5,4 +5,4 @@
 # a=(1.23e4+5.67e4j).real
 # b=(1.23e4+5.67e4j).imag
 # c=1.23e4+5.67e4j.imag 
-print(c)
+#print(c)
