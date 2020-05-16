@@ -4,5 +4,10 @@
 # print(1.23e4)
 # a=(1.23e4+5.67e4j).real
 # b=(1.23e4+5.67e4j).imag
+<<<<<<< HEAD
 c=1.23e4+5.67e4j.imag
 print(c)
+=======
+# c=1.23e4+5.67e4j.imag 
+#print(c)
+>>>>>>> 0f036ef4ab8c9dcc95ce6d549fa1776dfeb63732
